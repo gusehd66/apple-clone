@@ -91,6 +91,7 @@ section{
   width: 200%;
   background-color: #f8f8f8;
   opacity: 0.3;
+  overflow-x: hidden;
 }
 
 .slide img{
@@ -140,6 +141,9 @@ section{
     font-size:20px;
     line-height:4rem;
     width: 35%;
+  }
+  .water{
+    margin-top: 15px;
   }
   .water_desc{
     font-size: 20px;
