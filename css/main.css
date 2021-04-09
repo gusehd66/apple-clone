@@ -185,6 +185,9 @@ section{
 }
 
 @media only screen and (max-width: 768px){
+  section{
+    overflow-x: hidden;
+  }
   #mainImg {
     width: 140%;
     position: relative;
