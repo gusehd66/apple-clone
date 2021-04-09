@@ -283,11 +283,11 @@ section{
   }
 
   .info_top{
-    top: 380px;
+    top: 400px;
   }
   .img_bot{
     position: relative;
-    top: -300px;
+    top: -255px;
   }
   .five{
     background-color: #fff;
