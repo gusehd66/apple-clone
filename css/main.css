@@ -142,9 +142,6 @@ section{
     line-height:4rem;
     width: 35%;
   }
-  .water{
-    margin-top: 15px;
-  }
   .water_desc{
     font-size: 20px;
     line-height: 2rem;
@@ -197,12 +194,16 @@ section{
   .three {
     margin-top: 100px;
   }
+  .slide{
+    overflow-x: hidden;
+    width: 100vw;
+  }
   .slide img{
     height: 200px;
   }
 
   .water{
-    margin-top: 100px;
+    margin-top: 120px;
     height: 600px;
     overflow: hidden;
   }
