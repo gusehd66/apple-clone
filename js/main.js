@@ -4,7 +4,6 @@ window.onload = function () {
 
   function next() {
     if (count < 6) {
-      console.log(event.target.x);
       ++count;
     } else {
       count = 0;
@@ -14,7 +13,6 @@ window.onload = function () {
 
   function prev() {
     if (count > 0) {
-      console.log(event.target.x);
       --count;
     } else {
       count = 6;

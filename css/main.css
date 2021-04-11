@@ -363,17 +363,19 @@ section{
     display: block;
     width: 100%;
   }
-  
-  .eight .bands{
-    position:absolute;
-    margin-left: 0;
-    left: 0;
-    overflow-x: hidden;
-  }
   .bands_title{
     display: inline-block;
     width: 80%;
   }
+
+  .eight .bands{
+    position:absolute;
+    margin-left: 0;
+    left: 0;
+    width: 100%;
+    overflow-x: hidden;
+  }
+  
   .bands_slide {
     grid-template-columns: repeat(9,200px);
   }
