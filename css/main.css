@@ -19,7 +19,7 @@ body {
   position: fixed;
   top: 3%;
   z-index: 100;
-  width: 30%;
+  width: 10%;
   /* display: grid;
   grid-template-columns: repeat(8,5%);
   justify-content: center; */
@@ -37,8 +37,9 @@ body {
 }
 .sub {
   display: none;
-  background-color: #f8f8f8;
-  opacity: 0.6;
+  background-color: whitesmoke;
+  opacity: 0.8;
+  padding: 0;
 }
 .active {
   display: block;
@@ -254,6 +255,12 @@ section{
     width: 95%;
     font-size: 0.8rem;
   }
+  .menu{
+    width: 30%;
+  }
+  .sub{
+    padding: 10px 0;
+  }
   .one p{
     font-size: 0.9rem;
     width: 300px;
@@ -335,11 +342,11 @@ section{
   }
 
   .info_top{
-    top: 406px;
+    top: 420px;
   }
   .img_bot{
     position: relative;
-    top: -406px;
+    top: -410px;
   }
   .five{
     background-color: #fff;
